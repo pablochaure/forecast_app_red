@@ -91,7 +91,7 @@ RUN install2.r --error --deps TRUE \
     plotly \
     scales \
     shiny \
-    shinyjs \
+    shinyjs
 
 RUN echo "local(options(shiny.port = 3838, shiny.host = '0.0.0.0'))" > /usr/lib/R/etc/Rprofile.site
 COPY app.R /srv/shiny-server/forecast_app_red
