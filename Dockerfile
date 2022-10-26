@@ -29,7 +29,6 @@ RUN apt-get update -qq \
     libv8-dev \
     libsodium-dev \
     liblzma-dev \
-    openjdk-14-jdk \
     libglpk-dev \
     default-jre \
     default-jdk \
